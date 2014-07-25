@@ -1,4 +1,4 @@
-alias subl="/c/Program\ Files/Sublime\ Text\ 3/sublime_text.exe"
+## Git ###################################
 
 alias gs="git status"
 
@@ -9,3 +9,8 @@ alias gc="git commit -a"
 alias ga="git add --all"
 
 alias com="git checkout master"
+
+## Filesystem ###################################
+function mdcd() {
+  mkdir -p "$1" && cd "$1";
+}
